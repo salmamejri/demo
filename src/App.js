@@ -1,17 +1,22 @@
 
 import './App.css';
 import Pub from './component/Pub';
-import Navbar from './component/Navbar';
-import Slide from './component/Slide';
-import { SlideData } from './component/SlideData';
+import Navbarr from './component/Navbarr';
+import Home from './component/Home'
+import NewProduct from './component/NewProduct';
 
 
 function App() {
   return (
     <div >
     <Pub/> 
-    <Navbar/>
-    <Slide slides={SlideData}/>
+    <Navbarr/>
+    <Home/>
+    <NewProduct title="card title"
+    imageUrl="https://5.imimg.com/data5/EX/NJ/MY-6389184/kids-jeans-500x500.jpg"
+    body="xxxxxx"
+    />
+ 
   
   
     </div>
